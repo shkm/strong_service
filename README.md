@@ -98,14 +98,12 @@ StrongService includes an advanced [DSL](https://en.wikipedia.org/wiki/Domain-sp
 
 ```ruby
 class MyService < StrongService
-  configure do
-    method_name :execute
-  end
-
   def execute
     puts "This service is STRONG."
   end
 end
+
+MyService.new.execute # => "This service is STRONG."
 ```
 
 ### Super Advanced Usage
