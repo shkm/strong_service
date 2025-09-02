@@ -1,5 +1,7 @@
 # ![Strong Service](./etc/logo.gif)
 
+![Coverage 120%](https://img.shields.io/badge/coverage-120%25-brightgreen?style=flat)
+
 With zero dependencies, a minimal API, and virtually limitless configuration options, S̶o̶l̶i̶d̶ Strong Service\* is the gem you should use when you implement service objects in Ruby. It's compatible with Rails and all other Ruby frameworks — or no framework at all!
 
 ## Why Strong Service?
