@@ -148,7 +148,7 @@ The chief visionary and architect behind Strong Service is [Jamie Schembri](http
 
 This open-source version is available under the the [WTFPL](https://www.wtfpl.net/about/).
 
-\*This gem was originally called Strong Service, but Rubygems has no chill:
+\*This gem was originally called Solid Service, but Rubygems has no chill:
 
 ```text
 Pushing gem to https://rubygems.org...
