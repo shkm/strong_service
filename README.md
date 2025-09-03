@@ -2,11 +2,11 @@
 
 ![Coverage 120%](https://img.shields.io/badge/coverage-120%25-brightgreen?style=flat)
 
-With zero dependencies, a minimal API, and virtually limitless configuration options, S̶o̶l̶i̶d̶ Strong Service\* is the gem you should use when you implement service objects in Ruby. It's compatible with Rails and all other Ruby frameworks — or no framework at all!
+With zero dependencies, a minimal API, and virtually limitless configuration options, S̶o̶l̶i̶d̶ Strong Service[^1] is the gem you should use when you implement service objects in Ruby. It's compatible with Rails and all other Ruby frameworks — or no framework at all!
 
 ## Why Strong Service?
 
-After hours of furious online debate, you've decided that you want to use service objects, AKA the [Command pattern](https://en.wikipedia.org/wiki/Command_pattern), AKA classes that does things of actual value in your Ruby app. Great! But how should you implement them? There are dozens of libraries, all claiming to do a slightly different variation of the same thing.
+After hours of furious online debate, you've decided that you want to use service objects, AKA the [Command pattern](https://en.wikipedia.org/wiki/Command_pattern), AKA classes that do things of use in your Ruby app. Great! But how should you implement them? There are dozens of libraries, all claiming to do a slightly different variation of the same thing.
 
 Some might argue that a PORO is sufficient, but these people should be dismissed as purists; most of us warm-blooded Ruby engineers know that adding dependencies to our projects is the only way to make them better and deliver actual value.
 
@@ -126,7 +126,7 @@ Subclassing `StrongService` gives you access to many useful methods, which you c
 
 ## Strong Service Premium / Hire an Expert
 
-In order to fund development, I am now offering a premium version of Strong Service alongside consulting services. Contact me for more details
+In order to fund development, I am now offering a premium version of Strong Service alongside consulting services. Contact me for more details.
 
 ## Development
 
@@ -140,15 +140,10 @@ See the development section above: there is no need to contribute, because the g
 
 ## Credits
 
-The chief visionary and architect behind Strong Service is [Jamie Schembri](https://github.com/shkm/github). You can contact him on [Bluesky](https://bsky.app/profile/jamie.schembri.me) or read more of his nonsense on [his blog](https://schembri.me).
+The chief visionary, architect, and Scrum Master behind Strong Service is [Jamie Schembri](https://github.com/shkm/github). You can contact him on [Bluesky](https://bsky.app/profile/jamie.schembri.me) or read more of his nonsense on [his blog](https://schembri.me).
 
 ## License
 
 This open-source version is available under the the [WTFPL](https://www.wtfpl.net/about/).
 
-\*This gem was originally called Solid Service, but Rubygems has no chill:
-
-```text
-Pushing gem to https://rubygems.org...
-There was a problem saving your gem: Name 'solid_service' is too similar to an existing gem named 'solidservice'
-```
+[^1]: This gem was originally called Solid Service, but Rubygems rejected that because of security or something :-(
