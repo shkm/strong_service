@@ -144,6 +144,6 @@ The chief visionary, architect, and Scrum Master behind Strong Service is [Jamie
 
 ## License
 
-This open-source version is available under the the [WTFPL](https://www.wtfpl.net/about/).
+This open-source version is available under the [WTFPL](https://www.wtfpl.net/about/).
 
 [^1]: This gem was originally called Solid Service, but Rubygems rejected that because of security or something :-(
