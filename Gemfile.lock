@@ -8,14 +8,19 @@ GEM
   specs:
     ast (2.4.3)
     date (3.4.1)
+    date (3.4.1-java)
     drb (2.2.3)
     erb (5.0.2)
+    erb (5.0.2-java)
     io-console (0.8.1)
+    io-console (0.8.1-java)
     irb (1.15.2)
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
+    jar-dependencies (0.5.7)
     json (2.13.2)
+    json (2.13.2-java)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     minitest (6.0.5)
@@ -32,7 +37,11 @@ GEM
     psych (5.2.6)
       date
       stringio
+    psych (5.2.6-java)
+      date
+      jar-dependencies (>= 0.1.7)
     racc (1.8.1)
+    racc (1.8.1-java)
     rainbow (3.1.1)
     rake (13.3.0)
     rdoc (6.14.2)
@@ -79,6 +88,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-24
+  java
   ruby
 
 DEPENDENCIES
